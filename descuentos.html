@@ -1,0 +1,267 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Free Snow Bootstrap Website Template | Shop :: w3layouts</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+                        
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+                        
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+     </script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				 <div class="header-left">
+					 <div class="logo">
+						<a href="index.html"><img src="images/logo.png" alt=""/></a>
+					 </div>
+					 <div class="menu">
+						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+						    <ul class="nav" id="nav">
+						    	<li><a href="shop.html">Tienda</a></li>
+						    	<li class="current"><a href="descuentos.html">Descuentos</a></li>
+						    	
+						    	<li ><a href="team.html">Acerca de</a></li>
+						    	
+								<li><a href="contact.html">Contacto</a></li>								
+								<div class="clear"></div>
+							</ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+				    </div>							
+	    		    <div class="clear"></div>
+	    	    </div>
+	            <div class="header_right">
+	    		  <!-- start search-->
+			
+						<!----search-scripts---->
+						
+		        <div class="clear"></div>
+	       </div>
+	      </div>
+		 </div>
+	    </div>
+	  </div>
+     <div class="main">
+      <div class="shop_top">
+		<div class="container">
+			<div class="row shop_box-top">
+				<div class="col-md-3 shop_box"><a href="primero.html">
+					<img src="images/primero.jpg" class="img-responsive" alt=""/>
+					
+					<span class="sale-box">
+						<span class="sale-label">rebaja!</span>
+					</span>
+					<div class="shop_desc"> <a href="primero.html"></a>
+						<h3><a href="primero.html">CAMISA CUELLO REDONDEADA 
+						</a></h3>
+						
+						<span class="reducedfrom">S/25</span>
+						<span class="actual">S/15</span><br>
+					
+				    </div>
+				</a></div>
+				<div class="col-md-3 shop_box"><a href="segundo.html">
+					<img src="images/segundo.jpg" class="img-responsive" alt=""/>
+					<span class="sale-box">
+						<span class="sale-label">rebaja!</span>
+					</span>
+					<div class="shop_desc">
+						<h3><a href="segundo.html">POLO CUELLO RECTILINEO
+						</a></h3>
+						
+						<span class="reducedfrom">S/36</span>
+						<span class="actual">S/23</span><br>
+						
+						
+				    </div>
+				</a></div>
+				<div class="col-md-3 shop_box"><a href="tercero.html">
+					<img src="images/tercero.jpg" class="img-responsive" alt=""/>
+				
+					
+					<span class="sale-box">
+						<span class="sale-label">rebaja!</span>
+					</span>
+					<div class="shop_desc">
+						<h3><a href="tercero.html">CASACA BOLSILLOS
+						</a></h3>
+						
+						<span class="reducedfrom">S/65</span>
+						<span class="actual">S/36</span><br>
+					
+				    </div>
+				</a></div>
+				<div class="col-md-3 shop_box"><a href="cuarto.html">
+					<img src="images/cuarto.jpg" class="img-responsive" alt=""/>
+					<span class="sale-box">
+						<span class="sale-label">rebaja!</span>
+					</span>
+					
+					<div class="shop_desc">
+						<h3><a href="cuarto.html">CHOMPA CUELLO ALTO
+						</a></h3>
+						
+						<span class="reducedfrom">S/45</span>
+						<span class="actual">S/35</span><br>
+					
+					
+				    </div>
+				</a></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 shop_box"><a href="quinto.html">
+					<img src="images/quinto.jpg" class="img-responsive" alt=""/>
+					<span class="sale-box">
+						<span class="sale-label">rebaja!</span>
+					</span>
+					<div class="shop_desc">
+						<h3><a href="quinto.html">ABRIGO CUELLO REGULAR
+						</a></h3>
+					
+						<span class="reducedfrom">S/80</span>
+						<span class="actual">S/40</span><br>
+						
+					
+				    </div>
+				</a></div>
+				<div class="col-md-3 shop_box"><a href="sexto.html">
+					<img src="images/sexto.jpg" class="img-responsive" alt=""/>
+				
+				
+					<span class="sale-box">
+						<span class="sale-label">rebaja!</span>
+					</span>
+					<div class="shop_desc">
+						<h3><a href="sexto.html">PANTALON DENIM-SPANDEX
+						</a></h3>
+						<span class="reducedfrom">S/50</span>
+						<span class="actual">S/45</span><br>
+			
+				
+				    </div>
+				</a></div>
+				<div class="col-md-3 shop_box"><a href="septimo.html">
+					<img src="images/septimo.jpg" class="img-responsive" alt=""/>
+					<span class="sale-box">
+						<span class="sale-label">rebaja!</span>
+					</span>
+					<div class="shop_desc">
+						<h3><a href="septimo.html">PANTALON DENIM SPANDEX</a></h3>
+						
+						<span class="reducedfrom">S/31</span>
+						<span class="actual">S/22</span><br>
+					
+				    </div>
+				</a></div>
+				<div class="col-md-3 shop_box"><a href="octavo.html">
+					<img src="images/octavo.jpg" class="img-responsive" alt=""/>
+				
+					<span class="sale-box">
+						<span class="sale-label">rebaja!</span>
+					</span>
+					<div class="shop_desc">
+						<h3><a href="octavo.html">BERMUDA DRILL CARGO
+						</a></h3>
+					
+						<span class="reducedfrom">S/28</span>
+						<span class="actual">S/16</span><br>
+						
+				    </div>
+				</a></div>
+			</div>
+		 </div>
+	   </div>
+	  </div>
+
+	  <div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<ul class="footer_box">
+						<h4>Productos</h4>
+						<li><a href="shop.html">Tienda</a></li>
+					
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer_box">
+						<h4>ACERCA DE</h4>
+						<li><a href="#">informacion</a></li>
+					
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer_box">
+						<h4>ATENCIÓN AL CLIENTE							</h4>
+						<li><a href="#">Contactanos</a></li>
+					
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer_box">
+						<h4>Nuestras redes</h4>
+				
+						<ul class="social">	
+							<li class="facebook"><a href="https://www.facebook.com/"><span> </span></a></li>
+							<li class="twitter"><a href="https://twitter.com/?lang=es"><span> </span></a></li>
+							<li class="instagram"><a href="https://www.instagram.com/?hl=es-la"><span> </span></a></li>	
+							<li class="pinterest"><a href="https://www.pinterest.ca/"><span> </span></a></li>	
+							<li class="youtube"><a href="https://www.youtube.com/"><span> </span></a></li>										  				
+						  </ul>
+						   
+					</ul>
+				</div>
+			</div>
+			<div class="row footer_bottom">
+				<div class="copy">
+				   <p>© 2014 Tiendas Peruanas S.A. Todos los derechos reservados the last  </a></p>
+				</div>
+				  
+					 </dl>
+			   </div>
+		</div>
+	</div>
+</body>	
+</body>	
+</html>
