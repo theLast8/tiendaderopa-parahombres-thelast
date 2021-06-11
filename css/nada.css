@@ -5,15 +5,15 @@
 }
 .titulo{
     color: goldenrod;
-    font-size: 90px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-family:Elephant;
     justify-content: center;
 
 }
 .titulo2{
     color: rgb(42, 118, 121);
     font-size: 90px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia;
     justify-content: center;
 
 }

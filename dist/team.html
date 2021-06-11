@@ -7,12 +7,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Free Snow Bootstrap Website Template | Single :: w3layouts</title>
+<title>Free Snow Bootstrap Website Template | Team :: w3layouts</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
-<link href="css/nada.css" rel='stylesheet' type='text/css' />
-
-
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -49,31 +46,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             });
         });
      </script>
-     <!----details-product-slider--->
-				<!-- Include the Etalage files -->
-					<link rel="stylesheet" href="css/etalage.css">
-					<script src="js/jquery.etalage.min.js"></script>
-				<!-- Include the Etalage files -->
-				<script>
-						jQuery(document).ready(function($){
-			
-							$('#etalage').etalage({
-								thumb_image_width: 300,
-								thumb_image_height: 400,
-								
-								show_hint: true,
-								click_callback: function(image_anchor, instance_id){
-									alert('Callback example:\nYou clicked on an image with the anchor: "'+image_anchor+'"\n(in Etalage instance: "'+instance_id+'")');
-								}
-							});
-							// This is for the dropdown list example:
-							$('.dropdownlist').change(function(){
-								etalage_show( $(this).find('option:selected').attr('class') );
-							});
-
-					});
-				</script>
-				<!----//details-product-slider--->	
+     <!-- Add fancyBox main JS and CSS files -->
+	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+		<script>
+			$(document).ready(function() {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+			});
+		});
+		</script>
 </head>
 <body>
 	<div class="header">
@@ -87,14 +77,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					 <div class="menu">
 						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
 						    <ul class="nav" id="nav">
-						    	<li class="current"><a href="shop.html">Tienda</a></li>
-						    	<li ><a href="descuentos.html">Descuentos</a></li>
+								<li ><a href="shop.html">Tienda</a></li>
+						    	<li><a href="descuentos.html">Descuentos</a></li>
 						    	
-						    	<li ><a href="team.html">Acerca de</a></li>
+						    	<li  class="current"><a href="team.html">Acerca de</a></li>
 						    	
 								<li><a href="contact.html">Contacto</a></li>								
 								<div class="clear"></div>
-						    	
 							</ul>
 							<script type="text/javascript" src="js/responsive-nav.js"></script>
 				    </div>							
@@ -102,15 +91,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	    	    </div>
 	            <div class="header_right">
 	    		  <!-- start search-->
-				   
-						
+				  
 						<!----search-scripts---->
 						<script src="js/classie.js"></script>
 						<script src="js/uisearch.js"></script>
 						<script>
 							new UISearch( document.getElementById( 'sb-search' ) );
 						</script>
-				    
+			
+				
 		        <div class="clear"></div>
 	       </div>
 	      </div>
@@ -120,128 +109,41 @@ License URL: http://creativecommons.org/licenses/by/3.0/
      <div class="main">
       <div class="shop_top">
 		<div class="container">
+			<div class="row team_box">
+				<h3 class="m_2">¿Qué es The Last?</h3>
+			
+				  
+				  
+				
+				    <p  >Somos una tienda en pleno crecimiento que se especializa en ropa para hombres, contamos con productos nuevos y originales de las mejores y más conocidas marcas. En The Last vives una experiencia de compra única que no encontraras en otro lado o tienda. Encuentra las últimas tendencias y ropa novedosa</p>
+				
+			
+			
+			
+			</div>
 			<div class="row">
-				<div class="col-md-9 single_left">
-				   <div class="single_image">
-					     <ul id="etalage">
-							<li>
-								<a href="optionallink.html">
-									<img class="etalage_thumb_image" src="images/pic7.jpg" />
-									<img class="etalage_source_image" src="images/pic7.jpg" />
-								</a>
-							</li>
-							
-						</ul>
-					    </div>
-				        <!-- end product_slider -->
-				        <div class="single_right">
-				        	<h3>CASACA DE PAÑO
-
-
-							</h3>
-							<h4 class="m_12" >Descripcion</h4>
-				        	<p class="m_10">Esta casaca azul con composición de lana es muy fácil de combinar. Úsala con tu denim o flat front favorito. Tiene dos bolsillos ojales a los lados y un cuello regular.
-
-
-							</p>
-							
-							<h4 class="m_12" >Guía de cuidados</h4>
-							<p class="m_10">LAVADO AL SECO
-
-
-							</p>
-							<ul class="options">
-								<h4 class="m_12">Tayas disponibles</h4>
-								<li><a href="#">S</a></li>
-								<li><a href="#">M</a></li>
-								<li><a href="#">L</a></li>
-							
-							</ul>
-				        
-					
-					
-					
-							
-							<div class="social_buttons">
-								<h4></h4>
-								<button type="button" class="btn1 btn1-default1 btn1-twitter" onclick="">
-									<i class="icon-twitter"></i> <a href="https://twitter.com/TheLast09647261">Twitter</a>
-								  </button>
-								  <button type="button" class="btn1 btn1-default1 btn1-facebook" onclick="">
-									<i class="icon-facebook"></i><a href="https://www.facebook.com/The-LAST-109394048028952"> Facebook</a>
-								  </button>
-					            
-					         
-					        </div>
-				        </div>
-				        <div class="clear"> </div>
+				<div class="col-md-4 team_bottom">
+				  <ul class="team_list">
+					<h3>Beneficios de comprar en The Last</h3>
+		            <li><h5>Mayor variedad de ropa en una misma tienda.</h5></li>
+		            <li><h5>Mejor precio que comprar en cualquier otra tienda</h5></li>
+		            <li><h5>Ropa 100% original de las mejores marcas.</h5></li>
+		            <li><h5>Buen servicio al cliente.</h5></li>
+					<li><h5>Puedes devolver el producto a nuestra tienda si no estás satisfecho con el mismo.</h5></li>
+		          </ul>
 				</div>
-				<div class="col-md-3">
-				  <div class="box-info-product">
-					<p class="price2">Precio:S/54</p>
-					<button class="nada">
-						<span><a href="https://wa.link/h5c1q9">Comprar</a></span>
-					 </button>
-				
-
-
-							
-					
-				
-				   </div>
-			   </div>
-			</div>	
-			<br>	
-			<div class="desc">
-				<h4></h4>
-		
-		
-		 </div>
-		
-			<div class="row">
-				<h4 class="m_11">Más Productos</h4>
-				<div class="col-md-4 product1"><a href="single.html">
-					<img src="images/nada.jpg" class="img-responsive" alt=""/> 
-					<div class="shop_desc"><a href="single.html">
-						</a><h3><a href="single.html"></a><a href="single.html">CAMISA CUELLO NERU </a></h3>
-					
-						
-						<span class="actual">S/66</span><br>
-				
-					
-					</a> </div>
+				<div class="col-md-8">
+					<ul class="team_list">
+					 
+					 <p class="m_7"></p>
+		             <img src="images/team5.jpg" class="img-responsive" alt=""/>
+		          </ul>
 				</div>
-				<div class="col-md-4 product1"><a href="uno.html">
-					<img src="images/pic6.jpg" class="img-responsive" alt=""/> 
-					<div class="shop_desc"><a href="single.html">
-						</a><h3><a href="single.html"></a><a href="uno.html">POLO ML CUELLO ALTO TEJIDO</a></h3>
-						
-					
-						<span class="actual">S/12
-						</span><br>
-					
-				    </div>
-				</a></div>
-				<div class="col-md-4"><a href="tres.html">
-					<img src="images/pic8.jpg" class="img-responsive" alt=""/> 
-					<span class="new-box">
-						<span class="new-label">Nuevo</span>
-					</span>
-					<div class="shop_desc"><a href="single.html">
-						</a><h3><a href="single.html"></a><a href="tres.html">CHOMPA BLAZER</a></h3>
-						
-						
-					
-					
-						<span class="actual">S/30</span><br>
-					
-				    </a></div>
-				</div>
-			</div>	
-	     </div>
+			</div>
+		</div>
 	   </div>
 	  </div>
-	  
+
 	  <div class="footer">
 		<div class="container">
 			<div class="row">
@@ -270,7 +172,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<ul class="footer_box">
 						<h4>Nuestras redes</h4>
 				
-					
 						<ul class="social">	
 							<li class="facebook"><a href="https://www.facebook.com/The-LAST-109394048028952"><span> </span></a></li>
 							<li class="twitter"><a href="https://twitter.com/TheLast09647261"><span> </span></a></li>
@@ -290,8 +191,5 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			   </div>
 		</div>
 	</div>
-	 
-	  
-					
 </body>	
 </html>
